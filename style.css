@@ -169,7 +169,11 @@ footer li{
         font-size: 20px;
         margin-left:6rem;
     }
+    .pata{
+        width: 25vw;
+    }
     .nav{
         width: 30px;
     }
+    
 }
