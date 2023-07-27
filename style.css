@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -136,6 +136,9 @@ button:hover{
 .Quarta h3{
     color: #FD6A9A;
     font-size: 24px;
+    font-weight:200;
+    font-family: "Roboto Serif";
+    font-style:italic;
 }
 footer{
     background-color: #EB4A7B;
