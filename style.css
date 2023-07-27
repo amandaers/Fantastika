@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", sans-serif;
+}
+header{
+    height: 15vh;
+    background-color:#252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 13vw;
+    color: white;
+    margin-left: 3rem;
+}
+h3:hover{
+    color: #EB4A7B;
+}
+header nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    align-items: center;
+    margin-right: 3rem;
+}
+.logo{
+    width: 40px;
+}
+.nav{
+    width: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 120vh;
+}
+.Primeira{
+    background-image: url(assets/lulu-web.png);
+}
+.Primeira div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 18px;
+    color: white;
+    width: 40vw;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+
+}
+p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 28vw;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+}
+.pata{
+    width: 8vw;
+}
+.Segunda{
+    background-image: url(assets/pitbull-web.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Segunda div{
+    margin-left: 5rem;
+    color: #3A342F;
+    width: 35vw;
+    height: 50%;
+}
+
+button{
+    padding: 20px;
+    border-radius: 40px;
+    width: 18vw;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background-color:#3A342F ;
+}
+button:hover{
+    background-color: #EB4A7B;
+}
+.Terceira{
+    background-image: url(assets/pincher-web.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.Terceira div{
+    width: 35vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #F4F2F3;
+    margin-right:5rem;
+}
+.bot2{
+    color: #252525;
+    background-color: white;
+}
+.bot2:hover{
+    background-color: #852844;
+    color: #FFFFFF;
+}
+.Quarta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.Quarta div{
+    display: flex;
+    justify-content: space-between;
+    width:50vw ;
+}
+.Quarta h3{
+    color: #FD6A9A;
+    font-size: 24px;
+}
+footer{
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+    height: 35vh;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin-left: 8rem;
+    font-size: 15px;
+}
+footer h2{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 3rem;
+}
+footer li{
+    list-style: none;
+}
+@media(max-width:500px){
+    .mobile{
+        display: none;
+    }
+    header div{
+        font-size: 20px;
+        margin-left:6rem;
+    }
+    .nav{
+        width: 30px;
+    }
+}
