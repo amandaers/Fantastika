@@ -69,6 +69,7 @@ p{
     width: 28vw;
     margin-top:1rem;
     margin-bottom: 2rem;
+    font-weight: 400;
 }
 .pata{
     width: 8vw;
@@ -94,6 +95,7 @@ button{
     font-size: 22px;
     color: white;
     background-color:#3A342F ;
+    font-weight: 500;
 }
 button:hover{
     background-color: #EB4A7B;
@@ -178,5 +180,61 @@ footer li{
     .nav{
         width: 30px;
     }
-    
+    .Primeira{
+        background-image: url(assets/lulu-mobile.png);
+    }
+    .Primeira h2{
+        font-size: 29px;
+        margin-bottom: 2rem;
+    }
+    .Primeira div{
+        background-attachment: fixed;
+        width: 80vw;
+        margin-top: 11rem;
+    }
+    .Segunda{
+        background-image: url(assets/pitbull-mobile.png);
+    }
+    .Segunda div{
+        margin-bottom: 150px;
+        margin-left: 2rem;
+    }
+    .Segunda h2{
+        flex-direction: row;
+        width: 80vw;
+        font-size: 32px;
+    }
+    .Segunda p{
+        font-size: 20px;
+        flex-direction: row;
+        width: 90vw;
+    }
+    .Segunda button{
+        width: 40vw;
+        font-size: 15px;
+    }
+    .Terceira{
+        background-image: url(assets/pincher-mobile.png);
+    }
+    .Terceira div{
+        margin-bottom: 150px;
+        width: 100vw;
+    }
+    .Terceira h2{
+        flex-direction: row;
+        width: 80vw;
+        font-size: 28px;
+        margin-left: 7rem;
+    }
+    .Terceira p{
+        font-size: 20px;
+        flex-direction: row;
+        width: 80vw;
+        margin-left: 7rem;
+    }
+    .Terceira button{
+        width: 40vw;
+        font-size: 15px;
+        margin-left: 7rem;
+    }
 }
