@@ -237,6 +237,19 @@ footer li{
         font-size: 15px;
         margin-left: 7rem;
     }
+    .Quarta{
+        flex-direction: column;
+        height: 20vh;
+        width: 80vw;
+        border: 2px solid;
+    }
+    .Quarta h3{
+        font-size:15px;
+    }
+    .Quarta img{
+        margin: 10px 30px;
+        width: 18vw;
+    }
     footer{
         height: 100vh;
     }
