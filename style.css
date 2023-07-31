@@ -237,4 +237,43 @@ footer li{
         font-size: 15px;
         margin-left: 7rem;
     }
+    footer{
+        height: 100vh;
+    }
+    footer nav{
+        margin-left: 1rem;
+    }
+    .navegacao{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .navegacao h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .navMobile{
+      display: block;
+    }
+
+    .navMobile img{
+        width: 5vw;
+    }
+    .title{
+        display: flex;
+        margin-top: 20px;
+        height: 10vh;
+    }
+    .title img{
+        margin-right: 10px;
+        margin-top: 1rem;
+        width: 20vw;
+        height: 10vh;
+        padding: 15px;
+        align-items: center;
+    }
 }
