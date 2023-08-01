@@ -5,6 +5,12 @@
     box-sizing: border-box;
     font-family: "Roboto Serif", sans-serif;
 }
+.navMobile{
+    display: none;
+}
+.title{
+    display: none;
+}
 header{
     height: 15vh;
     background-color:#252525;
@@ -241,7 +247,6 @@ footer li{
         flex-direction: column;
         height: 20vh;
         width: 80vw;
-        border: 2px solid;
     }
     .Quarta h3{
         font-size:15px;
@@ -254,38 +259,37 @@ footer li{
         height: 100vh;
     }
     footer nav{
-        margin-left: 1rem;
+        margin-left: 30px;
     }
     .navegacao{
         flex-direction: column;
         text-align: center;
         align-items: center;
-        width: 85vw;
+        width: 80vw;
         height: 100vh;
     }
 
     .navegacao h2{
-        font-size: 25px;
-        margin-bottom: 10px;
+        font-size: 27px;
     }
-
     .navMobile{
-      display: block;
-    }
-
+        display: block;
+      }
     .navMobile img{
-        width: 5vw;
+        margin-top: 1rem;
+        width: 6vw;
     }
     .title{
         display: flex;
         margin-top: 20px;
         height: 10vh;
+        margin-right: 1rem;
     }
     .title img{
-        margin-right: 10px;
-        margin-top: 1rem;
-        width: 20vw;
-        height: 10vh;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 18vw;
+        height: 9vh;
         padding: 15px;
         align-items: center;
     }
