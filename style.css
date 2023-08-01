@@ -130,23 +130,32 @@ button:hover{
     color: #FFFFFF;
 }
 .Quarta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 15vh;
 }
 
-.Quarta div{
+.Quarta div h3{
     display: flex;
-    justify-content: space-between;
-    width:50vw ;
-}
-.Quarta h3{
+    justify-content: center;
+    align-items: center;
+    width:10vw;
     color: #FD6A9A;
     font-size: 24px;
     font-weight:200;
     font-family: "Roboto Serif";
     font-style:italic;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+
+.logoCont{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoCont img{
+    width: 8vw;
+    height: 4vh;
 }
 footer{
     background-color: #EB4A7B;
@@ -244,16 +253,20 @@ footer li{
         margin-left: 7rem;
     }
     .Quarta{
-        flex-direction: column;
-        height: 20vh;
-        width: 80vw;
+        height: 15vh;
     }
-    .Quarta h3{
-        font-size:15px;
+    .Quarta div h3{
+        font-size: 15px;
+        text-align: center;
+        margin-left:10rem;
     }
-    .Quarta img{
+    .logoCont{
+        margin-right: 15rem;
+    }
+    .logoCont img{
         margin: 10px 30px;
-        width: 18vw;
+        width: 14vw;
+        height: 1vh;
     }
     footer{
         height: 100vh;
